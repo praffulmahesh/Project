@@ -18,7 +18,7 @@ pipeline {
             steps {
                 // echo 'Building the application...'
                 sh '''
-                #!/bin/bash
+                #!/usr/local/bin
                 echo "Running build commands..."
                 # Example build command (replace with your actual command)
                 npm install
